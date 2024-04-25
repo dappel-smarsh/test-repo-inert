@@ -1,6 +1,5 @@
 #!/bin/bash
 
-export PASSWORD='sensitive_password'
 
 function found_exe() {
     hash "$1" 2>/dev/null
